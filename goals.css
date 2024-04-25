@@ -10,11 +10,25 @@
    
    }
    
-   #navbar{
-       margin-left: 40%;
-       text-decoration: none;
-    
-   }
+   .topnav {
+    overflow: hidden;
+    /* background-color: rgb(196, 29, 196); */
+    color: black;
+  }
+  .topnav a.active {
+    /* background-color: purple; */
+    color: black;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
    
    #checkboxcontainer{
      margin-left: 20%;
@@ -27,7 +41,8 @@
    #icons{
        margin-left: 25%;
        display: flex;
-     
+       padding-bottom: 30%;
+       padding-top: 20%;
        gap: 7%;
    }
 
