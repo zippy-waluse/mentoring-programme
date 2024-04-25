@@ -29,11 +29,16 @@
   #bodytext{
     margin-left: 5%;
     font-size: x-large;
+    padding-top: 5%;
   }
 
   #mentorhand{
    width: 40%;
    margin-left: 5%;
+  }
+
+  #menteeimg{
+    display: flex;
   }
   
 
