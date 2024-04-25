@@ -1,0 +1,43 @@
+#body{
+    text-align: center;
+    font-size: x-large;
+   
+    
+}
+
+#form{
+    border: solid 1px;
+    width: 30%;
+    margin-left: 26%;
+padding-bottom: 100px;
+padding-top: 50px;
+}
+
+.inputbox{
+   border: solid 1px;
+   padding: 25px;
+    width: 50%;
+    border-radius: 17px;
+    background-color: #Ca8dfd;
+   
+}
+
+#signup-button{
+    width: 60%;
+    border: solid 1px;
+    padding: 25px;
+    border-radius: 17px;
+    background-color: purple;
+    color: white;
+  
+}
+
+#login-button{
+    width: 60%;
+    border: solid 1px;
+    padding: 25px;
+    border-radius: 17px; 
+}
+
+
+

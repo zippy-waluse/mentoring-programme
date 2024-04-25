@@ -1,0 +1,38 @@
+#navbar{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    height: 30%;
+ 
+}
+
+
+#list{
+    border: solid 1px;
+    display: flex;
+    gap: 5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: x-large;
+}
+
+
+#viewbutton{
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+    height: 0%;
+    padding-top: 25%;
+    width: 250px;
+
+}
+
+#to-do-box{
+
+}
+
+
+
+
