@@ -15,16 +15,16 @@
 .topnav {
     overflow: hidden;
     /* background-color: rgb(196, 29, 196); */
-    color: black;
+    color: purple;
   }
   .topnav a.active {
     /* background-color: purple; */
-    color: black;
+   
   }
 
   .topnav a {
     float: left;
-    color: black;
+    color: purple;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,6 +46,11 @@
     gap: 7%;
 }
 
+
+.checktext{
+  display: flex;
+  gap: 2%;
+}
 
 
 

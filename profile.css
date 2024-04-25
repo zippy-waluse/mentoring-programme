@@ -1,0 +1,40 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(196, 29, 196);
+  }
+  .topnav a.active {
+    background-color: purple;
+    color: white;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #body{
+    
+  }
+
+  #profilepic{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 30%;
+  }
+
+  #profilecontent{
+    margin-left: 30%;
+  }
+
+  #namediv{
+    border: solid 1px;
+    width: 10%;
+    height: 20%;
+    margin-left: 38%;
+    background-color: purple;
+  }
