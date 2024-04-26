@@ -29,12 +29,15 @@
   #bodytext{
     margin-left: 5%;
     font-size: x-large;
-    padding-top: 5%;
+    padding-top: 12%;
   }
 
   #mentorhand{
    width: 40%;
    margin-left: 5%;
+   object-fit: cover;
+   width: 60%;
+   height: 60%;
   }
 
   #menteeimg{
