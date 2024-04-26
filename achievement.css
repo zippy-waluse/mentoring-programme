@@ -54,4 +54,67 @@
 
 
 
+@media only screen and (max-width: 10300px) and (min-width:600px ){
+  .checktext{
+    display: flex;
+    gap: 2%;
+  }
+
+  #achievementtext{
+    margin-left: 7%;
+}
+
+
+#icons{
+  margin-left: 25%;
+  display: flex;
+
+  gap: 7%;
+}
+
+}
+
+
+@media only screen and (max-width: 700px) and (min-width:280px ){
+}
+
+.checktext{
+  display: flex;
+  gap: 2%;
+}
+
+#achievementtext{
+  margin-left: 7%;
+}
+
+
+#icons{
+margin-left: 25%;
+display: flex;
+
+gap: 7%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width:360px ){
+
+  .checktext{
+    display: flex;
+    gap: 2%;
+  }
+
+  #achievementtext{
+    margin-left: 7%;
+}
+
+
+#icons{
+  margin-left: 25%;
+  display: flex;
+
+  gap: 7%;
+}
+}
+
+
+
 

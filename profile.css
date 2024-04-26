@@ -38,3 +38,112 @@
     margin-left: 38%;
     background-color: purple;
   }
+
+
+  @media only screen and (max-width: 900px) and (min-width:375px ){
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-left: 30%;
+    }
+
+
+    #namediv{
+      border: solid 1px;
+      width: 50%;
+      height: 20%;
+      margin-left: 38%;
+      background-color: purple;
+    }
+
+
+
+  #profilecontent{
+    margin-left: 30%;
+    font-size: x-large;
+  }
+
+  }
+
+  @media only screen and (max-width: 900px) and (min-width:400px ){
+
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-left: 30%;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 600px) and (min-width:300px ){
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-left: 30%;
+    }
+
+
+    #namediv{
+      border: solid 1px;
+      width: 50%;
+      height: 20%;
+      margin-left: 38%;
+      background-color: purple;
+    }
+
+
+  #profilecontent{
+    margin-left: 10%;
+    font-size: x-large;
+  }
+
+  #profilepic{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70%;
+    margin-right: 50%;
+  }
+
+
+  }
+
+
+  @media only screen and (max-width: 600px) and (min-width:300px ){
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-right: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) and (min-width:250px ){
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-right: 50%;
+    }
+
+    #namediv{
+      border: solid 1px;
+      width: 50%;
+      height: 20%;
+      margin-right: 20%;
+      background-color: purple;
+    }
+
+
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-left: 30%;
+    }
+
+
+  }
