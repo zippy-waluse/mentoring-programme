@@ -16,6 +16,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
     font-size: x-large;
+    gap: 20%;
 }
 
 
@@ -51,6 +52,53 @@
     font-size: 17px;
   }
 
+  #checkbox{
+    width: 5%;
+    margin-left: 2%;
+  }
+
+
+  #summarytext{
+    margin-right: 5%;
+  }
+
+
+  #buttons{
+    border-radius: 7px;
+    background-color: purple;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  #listbutton{
+    display: flex;
+  }
+
+  #listbutton2{
+    display: flex;
+  }
+
+  #checkbox2{
+    width: 10%;
+    margin-left: 2%;
+  }
+
+
+
+  @media only screen and (max-width: 600px) and (min-width:200px ){
+
+#list{
+  border: solid 1px;
+  gap: 5%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: x-large;
+  flex-wrap: wrap;
+}
+
+  }
 
 
 
