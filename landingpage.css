@@ -44,6 +44,11 @@
     display: flex;
   }
 
+
+  #logo{
+    width: 7%;
+  }
+
   @media only screen and (max-width: 800px) and (min-width:375px ){
    
     #menteeimg{
