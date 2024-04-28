@@ -375,3 +375,21 @@
     padding-bottom: 45%;
   }
 }
+
+
+@media only screen and (max-width: 700px) and (min-width:250px ){
+  #footer{
+    display: grid;
+  }
+
+
+
+  #profilediv{
+    display: grid;
+    font-size: smaller;
+  }
+
+  #about{
+    padding-bottom: 45%;
+  }
+}
