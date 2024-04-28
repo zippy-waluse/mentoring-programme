@@ -6,29 +6,35 @@
    #goalimage{
        /* width: 20%; */
        margin-left: 20%;
-       width: 70%;
+       width: 35%;
    
    }
    
-   .topnav {
+  
+
+  .topnav {
     overflow: hidden;
-    /* background-color: rgb(196, 29, 196); */
-    color: black;
+    background-color: rgb(196, 29, 196);
   }
   .topnav a.active {
-    /* background-color: purple; */
-    color: purple;
+    background-color: purple;
+    color: white;
   }
 
   .topnav a {
     float: left;
-    color: purple;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin-left: 10%;
   }
 
+  #logo{
+    width: 3%;
+    /* color: white; */
+  }
    
    #checkboxcontainer{
      margin-left: 20%;
@@ -41,15 +47,21 @@
    #icons{
        margin-left: 25%;
        display: flex;
-       padding-bottom: 7%;
-       padding-top: 20%;
+       
        gap: 7%;
-       width: 3%r;
+       width: 0%;
+   }
+
+
+   .icons{
+    width: 1%;
+    display: flex;
+    gap: 5%;
    }
 
    #forms{
     font-size: larger;
-    border: solid 1px;
+   
     width: 30%;
     margin-left: 30%;
    }
@@ -57,6 +69,38 @@
    .goaltext1{
     display: flex;
    }
+
+
+   #bodytext{
+    background-color: #Ca8dfd;
+   }
+
+   by
+
+   .footerstyle{
+    list-style-type: none;
+   }
+
+
+   #footer{
+    background-color: purple;
+   
+  }
+  
+  #footer{
+    background-color: purple;
+    display: flex;
+    gap: 15%;
+    list-style-type: none;
+    background-color: rgb(196, 29, 196);
+    padding-top: 2%;
+  
+   }
+  
+   .footerstyle{
+    list-style-type: none;
+   }
+  
 
 
     
@@ -90,7 +134,7 @@
   
      #forms{
       font-size: larger;
-      border: solid 1px;
+      /* border: solid 1px; */
       width: 30%;
       margin-left: 30%;
      }
@@ -98,6 +142,12 @@
      #checkboxcontainer{
       margin-left: 20%;
     }
+
+    #footer{
+   flex-wrap: wrap;
+     
+  
+     }
   
    }
 
@@ -119,4 +169,14 @@
       margin-left: 20%;
     }
   
+   }
+
+
+   @media only screen and (max-width: 700px) and (min-width:300px ){
+
+    #footer{
+      flex-wrap: wrap;
+        
+     
+        }
    }

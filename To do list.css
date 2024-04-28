@@ -1,0 +1,75 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(196, 29, 196);
+    gap: 20%;
+   
+  }
+  .topnav a.active {
+    background-color: purple;
+    color: white;
+    gap: 20%;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    gap: 20%;
+    margin-left: 10%;
+  }
+
+
+  #logo{
+    width: 3%;
+    /* color: white; */
+  }
+
+  #body{
+    
+    background-color: #Ca8dfd;
+  }
+   #taskInput{
+    text-align: center;
+   }
+
+
+
+
+  .taskInput{
+    text-align: center;
+  }
+
+.container{
+  
+}
+
+#taskInput{
+    border-radius: 10px;
+    height: 30px;
+   
+}
+
+#to-do-text{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+#footer{
+    background-color: purple;
+    display: flex;
+    gap: 15%;
+    list-style-type: none;
+    background-color: rgb(196, 29, 196);
+    padding-top: 20%;
+  
+   }
+  
+   .footerstyle{
+    list-style-type: none;
+   }

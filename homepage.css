@@ -24,14 +24,18 @@
 
   #heading{
     font-size: x-large;
+    margin-left: 10%;
   }
 
-/* 
   #undrawimage{
-    width: 45%;
-    margin-left: 3%;
-  } */
+    width: 800px;
+    height: 700px;
+  }
 
+#candidate{
+  margin-left: 3%;
+  width: 90%;
+}
 
   #bodycont{
     display: flex;
@@ -39,12 +43,14 @@
 
 
   #undrawimage{
-    margin-left: 9%;
-    width: 90%;
+    margin-left: 5%;
+    width: 95%;
   }
 
   #heading{
     padding-top: 180px;
+
+    
   }
 
   .button{

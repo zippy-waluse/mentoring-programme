@@ -12,38 +12,58 @@
 
 }
 
-.topnav {
+
+
+  .topnav {
     overflow: hidden;
-    /* background-color: rgb(196, 29, 196); */
-    color: purple;
+    background-color: rgb(196, 29, 196);
+    gap: 20%;
+   
   }
   .topnav a.active {
-    /* background-color: purple; */
-   
+    background-color: purple;
+    color: white;
+    gap: 20%;
   }
 
   .topnav a {
     float: left;
-    color: purple;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    gap: 20%;
+    margin-left: 10%;
   }
+
 
 #checkboxcontainer{
   margin-left: 8%;
 }
 
 #achievementtext{
-    margin-left: 7%;
+  text-align: center;
+  margin-right: 20%;
+}
+
+#achievement_logo{
+  text-align: center;
+  margin-left: 35%;
+  width: 18%;
+}
+
+#logo{
+  width: 3%;
+  /* color: white; */
 }
 
 #icons{
-    margin-left: 25%;
+    /* margin-left: 15%; */
     display: flex;
-  
+
     gap: 7%;
+   
 }
 
 
@@ -53,8 +73,35 @@
 }
 
 
+#bodytext{
+  background-color: #Ca8dfd;
+}
 
-@media only screen and (max-width: 10300px) and (min-width:600px ){
+
+#footer{
+  background-color: purple;
+ 
+}
+
+#footer{
+  background-color: purple;
+  display: flex;
+  gap: 15%;
+  list-style-type: none;
+  background-color: rgb(196, 29, 196);
+  padding-top: 2%;
+
+ }
+
+ .footerstyle{
+  list-style-type: none;
+ }
+
+
+
+
+
+@media only screen and (max-width: 1300px) and (min-width:600px ){
   .checktext{
     display: flex;
     gap: 2%;
@@ -72,11 +119,17 @@
   gap: 7%;
 }
 
+#form{
+  font-size: small;
+ 
+  
+ }
+
 }
 
 
 @media only screen and (max-width: 700px) and (min-width:280px ){
-}
+
 
 .checktext{
   display: flex;
@@ -93,6 +146,22 @@ margin-left: 25%;
 display: flex;
 
 gap: 7%;
+}
+
+#bodytext{
+  font-size: small;
+}
+
+
+#form{
+  font-size: small;
+ 
+  
+ }
+
+ #footer{
+  flex-wrap: wrap;
+ }
 }
 
 @media only screen and (max-width: 1200px) and (min-width:360px ){
@@ -113,7 +182,44 @@ gap: 7%;
 
   gap: 7%;
 }
+
+#form{
+  font-size: small;
+ 
+  
+ }
+
+ #about{
+  font-size: small;
+ }
 }
+
+
+@media only screen and (max-width: 900px) and (min-width:375px ){
+  #footer{
+   flex-wrap: wrap;
+  }
+
+
+  #navbar{
+    flex-wrap: wrap;
+  }
+
+  #form{
+    font-size: small;
+   
+    
+   }
+
+  }
+
+
+  @media only screen and (max-width: 800px) and (min-width:360px ){
+    #footer{
+      flex-wrap: wrap;
+     }
+  }
+
 
 
 

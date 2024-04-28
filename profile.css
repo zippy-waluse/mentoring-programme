@@ -7,14 +7,15 @@
     color: white;
   }
 
-  .topnav a {
+ .topnav a {
     float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+    margin-left: 15%;
+  } 
 
   #body{
     background-color: #Ca8dfd;
@@ -51,7 +52,7 @@
 
   #about{
     /* padding-top: 300px; */
-    padding-top: 13%;
+    padding-top: 7%;
     font-size: larger;
     
   }
@@ -67,11 +68,26 @@
 
 
   #logo{
-    width: 8%;
+    width: 3%;
     /* color: white; */
   }
 
-  @media only screen and (max-width: 900px) and (min-width:375px ){
+  #footer{
+    background-color: purple;
+    display: flex;
+    gap: 15%;
+    list-style-type: none;
+    background-color: rgb(196, 29, 196);
+    padding-top: 5%;
+
+   }
+
+   .footerstyle{
+    list-style-type: none;
+   }
+
+
+  /* @media only screen and (max-width: 900px) and (min-width:375px ){
     #profilepic{
       object-fit: cover;
       border-radius: 50%;
@@ -95,10 +111,21 @@
     font-size: x-large;
   }
 
+  } */
+
+  /* @media only screen and (max-width: 900px) and (min-width:400px ){
+
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 70%;
+      margin-left: 30%;
+    } */
+
+/*     
   }
 
-  @media only screen and (max-width: 900px) and (min-width:400px ){
-
+  @media only screen and (max-width: 800px) and (min-width:300px ){
     #profilepic{
       object-fit: cover;
       border-radius: 50%;
@@ -106,16 +133,10 @@
       margin-left: 30%;
     }
 
-    
-  }
 
-  @media only screen and (max-width: 600px) and (min-width:300px ){
-    #profilepic{
-      object-fit: cover;
-      border-radius: 50%;
-      width: 70%;
-      margin-left: 30%;
-    }
+  #picdiv{
+    margin-right: 2%;
+  }
 
 
     #namediv{
@@ -129,19 +150,45 @@
 
   #profilecontent{
     margin-left: 10%;
-    font-size: x-large;
+    font-size: smaller;
   }
-
   #profilepic{
-    object-fit: cover;
-    border-radius: 50%;
-    width: 70%;
+    margin-right: 200px;
+    width: 10%;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 0%;
+    flex-wrap: wrap;
+  }
+
+  #profile{
+    font-size: smaller;
   }
 
 
+  #footer{
+    margin-right: 50%;
+    display: grid;
   }
 
 
+  #about{
+    font-size: smaller;
+    display: grid;
+    margin-right: 50%;
+  }
+
+
+  } */
+
+/* 
   @media only screen and (max-width: 600px) and (min-width:300px ){
     #profilepic{
       object-fit: cover;
@@ -149,15 +196,15 @@
       width: 70%;
       margin-right: 70%;
     }
-  }
+  } */
 
-  @media only screen and (max-width: 700px) and (min-width:250px ){
+  /* @media only screen and (max-width: 700px) and (min-width:250px ){
     #profilepic{
       object-fit: cover;
       border-radius: 50%;
       width: 70%;
-      margin-right: 50%;
-    }
+      /* margin-right: 50%; */
+    /* }
 
     #namediv{
       border: solid 1px;
@@ -172,8 +219,159 @@
       object-fit: cover;
       border-radius: 50%;
       width: 70%;
-      margin-left: 30%;
+      /* margin-left: 30%; */
+    /* } */
+/* 
+    #body{
+      text-align: center;
+    } */ */
+
+
+  /* } */
+
+
+  /* @media only screen and (max-width: 900px) and (min-width:375px ){
+   
+  
+
+    #footer{
+      background-color: purple;
+      display: grid;
+      gap:0%;
+      margin-right: 10%;
+     font-size: small;
+  
+  
+     }
+
+     #about{
+      /* padding-top: 300px; */
+      /* padding-top: 7%;
+      font-size: smaller;
+      display: grid;
+      
+    }
+  
+    #navbar{
+      flex-wrap: wrap;
     }
 
 
+    #profilediv{
+    display: grid;
+    font-size: small;
+    
+    }
+
+    #about{
+      padding-bottom: 60%;
+      
+    }
+
+
+    #profilecontent{
+    
+      font-size: small;
+    } */ 
+
+/* 
+    #profilepic{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 50%;
+    }
+
+
+    #namediv{
+      border: solid 1px;
+      width: 50%;
+      height: 20%;
+      margin-left: 25%;
+      background-color: purple;
+    }
+
+
+    #picdiv{
+      padding-top: 9%;
+    } */ 
+
+    /* }
+
+    @media only screen and (max-width: 800px) and (min-width:300px ){
+      #profilepic{
+        object-fit: cover;
+        border-radius: 50%;
+        width: 70%;
+      }
+
+
+
+
+    #profilediv{
+      display: grid;
+      font-size: small;
+      
+      }
+
+      #footer{
+        flex-wrap: wrap;
+       }
+
+
+       #about{
+        padding-bottom: 60%;
+        margin-left: 2%;
+        
+      }
+
+
+  #picdiv{
+    margin-right: 5%;
   }
+
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* margin-left: 1%; r */
+    /* margin-left: 2%;
+  } */
+
+
+
+  /* #picdiv{
+    margin-right: 15%;
+  } */
+
+
+  
+  
+    /* } */
+{}
+
+
+@media only screen and (max-width: 800px) and (min-width:300px ){
+  #footer{
+    display: grid;
+  }
+
+  #profilediv{
+    display: grid;
+    font-size: smaller;
+  }
+
+
+  #picdiv{
+    /* margin-left: 0%; */
+    margin-right: 3%;
+  }
+
+
+  #about{
+    padding-bottom: 45%;
+  }
+}

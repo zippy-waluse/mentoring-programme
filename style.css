@@ -8,9 +8,10 @@
 #form{
     border: solid 1px;
     width: 30%;
-    margin-left: 26%;
+    margin-left: 35%;
 padding-bottom: 100px;
 padding-top: 50px;
+text-align: center;
 }
 
 .inputbox{
